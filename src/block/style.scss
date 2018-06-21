@@ -1,0 +1,25 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.nl-story-2-col {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+
+  @media( min-width: 500px ) {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+ }
+
+.nl-story-visual > img {
+  border: var(--accentBorderThick);
+}
+
+.nl-story-caption {
+  color: var(--textDark);
+}
